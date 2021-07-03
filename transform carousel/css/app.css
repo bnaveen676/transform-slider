@@ -136,7 +136,7 @@ html {
     -o-transition: var(--effect);
 }
 
-.reuseBtn :hover {
+.reuseBtn:hover {
     background: var(--primaryCol);
     color: var(--secondaryCol);
 }
