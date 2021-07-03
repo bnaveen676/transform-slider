@@ -30,16 +30,6 @@ html {
 }
 
 */
-/* headings */
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    text-transform: var(--textFormat);
-}
 
 
 /* start preloader */
@@ -130,7 +120,7 @@ h6 {
     letter-spacing: var(--space);
 }
 
-.carousel-caption a {
+.reuseBtn {
     padding: .5rem 3rem;
     border: 1px solid var(--primaryCol);
     border-radius: 8px;
@@ -146,7 +136,7 @@ h6 {
     -o-transition: var(--effect);
 }
 
-.carousel-caption a:hover {
+.reuseBtn :hover {
     background: var(--primaryCol);
     color: var(--secondaryCol);
 }
