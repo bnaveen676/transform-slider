@@ -99,7 +99,7 @@ html {
     filter: brightness(50%);
     -webkit-filter: brightness(50%);
     cursor: pointer;
-    -webkit-animation: zoomInImage 20s infinite;
+    animation: zoomInImage 20s infinite;
 }
 
 .carousel-caption {
